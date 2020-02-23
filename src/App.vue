@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div style="height: 100vh;;backgroundColor: red;opacity: 0.5;">666</div>
+
+    <div style="height: 300vh;backgroundColor: pink;opacity: 0.5;">sixsixsix</div>
+
+    <div style="height: 200vh;backgroundColor: yellow;opacity: 0.5;">9999</div>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <BackTop/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BackTop from './components/BackTop.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BackTop
   }
 }
 </script>
